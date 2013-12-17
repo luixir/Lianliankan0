@@ -1,0 +1,30 @@
+﻿Build started 12/17/2013 8:25:11 PM.
+     1>Project "C:\Users\Riko\Documents\Visual Studio 2012\Projects\Lianliankan0\LLK\LLK.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\LLK.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\LLK.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt GameControl.cpp GameDlg.cpp GameLogic.cpp global.cpp LLK.cpp LLKDlg.cpp
+         LLKDlg.cpp
+         LLK.cpp
+         global.cpp
+         GameLogic.cpp
+         GameDlg.cpp
+         GameControl.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\LLK.res" LLK.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Riko\Documents\Visual Studio 2012\Projects\Lianliankan0\Debug\LLK.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Riko\Documents\Visual Studio 2012\Projects\Lianliankan0\Debug\LLK.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Riko\Documents\Visual Studio 2012\Projects\Lianliankan0\Debug\LLK.lib" /MACHINE:X86 Debug\LLK.res
+         Debug\GameControl.obj
+         Debug\GameDlg.obj
+         Debug\GameLogic.obj
+         Debug\global.obj
+         Debug\LLK.obj
+         Debug\LLKDlg.obj
+         Debug\stdafx.obj
+         LLK.vcxproj -> C:\Users\Riko\Documents\Visual Studio 2012\Projects\Lianliankan0\Debug\LLK.exe
+     1>Done Building Project "C:\Users\Riko\Documents\Visual Studio 2012\Projects\Lianliankan0\LLK\LLK.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.60
