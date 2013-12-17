@@ -162,7 +162,6 @@ void CGameDlg::InitElement(void)
 
 	// Select bitmap resource into dc
 	m_dcMask.SelectObject(hMBitmap);
-
 }
 
 void CGameDlg::UpdateWindow()
