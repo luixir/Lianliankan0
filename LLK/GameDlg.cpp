@@ -48,6 +48,10 @@ BEGIN_MESSAGE_MAP(CGameDlg, CDialogEx)
 	ON_WM_LBUTTONUP()
 	ON_WM_TIMER()
 	ON_BN_CLICKED(IDC_BTN_PAUSE, &CGameDlg::OnClickedBtnPause)
+	ON_BN_CLICKED(IDC_BTN_REARRANGE, &CGameDlg::OnClickedBtnRearrange)
+	ON_BN_CLICKED(IDC_BTN_PROMT, &CGameDlg::OnClickedBtnPromt)
+	ON_BN_CLICKED(IDC_BTN_SETTING, &CGameDlg::OnClickedBtnSetting)
+	ON_BN_CLICKED(IDC_BTN_HELP, &CGameDlg::OnClickedBtnHelp)
 END_MESSAGE_MAP()
 
 
@@ -162,6 +166,7 @@ void CGameDlg::InitElement(void)
 
 	// Select bitmap resource into dc
 	m_dcMask.SelectObject(hMBitmap);
+
 }
 
 void CGameDlg::UpdateWindow()
@@ -295,4 +300,28 @@ void CGameDlg::OnClickedBtnPause()
 {
 	// TODO: Add your control notification handler code here
 	m_bPause = true;
+}
+
+
+void CGameDlg::OnClickedBtnRearrange()
+{
+	// TODO: Add your control notification handler code here
+}
+
+
+void CGameDlg::OnClickedBtnPromt()
+{
+	// TODO: Add your control notification handler code here
+}
+
+
+void CGameDlg::OnClickedBtnSetting()
+{
+	// TODO: Add your control notification handler code here
+}
+
+
+void CGameDlg::OnClickedBtnHelp()
+{
+	// TODO: Add your control notification handler code here
 }

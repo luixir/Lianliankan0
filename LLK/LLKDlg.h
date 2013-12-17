@@ -34,4 +34,11 @@ protected:
 	afx_msg HCURSOR OnQueryDragIcon();
 	DECLARE_MESSAGE_MAP()
 	afx_msg void OnClickedBtnBasic();
+public:
+	afx_msg void OnClickedBtnEasy();
+//	afx_msg void OnClickedBtnGame();
+	afx_msg void OnClickedBtnRank();
+	afx_msg void OnClickedBtnSetting();
+	afx_msg void OnClickedBtnHelp();
+	afx_msg void OnClickedBtnLevel();
 };

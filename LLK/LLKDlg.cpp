@@ -65,6 +65,12 @@ BEGIN_MESSAGE_MAP(CLLKDlg, CDialogEx)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDC_BTN_BASIC, &CLLKDlg::OnClickedBtnBasic)
+	ON_BN_CLICKED(IDC_BTN_EASY, &CLLKDlg::OnClickedBtnEasy)
+//	ON_BN_CLICKED(IDC_BTN_Game, &CLLKDlg::OnClickedBtnGame)
+	ON_BN_CLICKED(IDC_BTN_RANK, &CLLKDlg::OnClickedBtnRank)
+	ON_BN_CLICKED(IDC_BTN_SETTING, &CLLKDlg::OnClickedBtnSetting)
+	ON_BN_CLICKED(IDC_BTN_HELP, &CLLKDlg::OnClickedBtnHelp)
+	ON_BN_CLICKED(IDC_BTN_LEVEL, &CLLKDlg::OnClickedBtnLevel)
 END_MESSAGE_MAP()
 
 
@@ -247,4 +253,40 @@ void CLLKDlg::OnClickedBtnBasic()
 	dlg.DoModal();
 	// Show the other window
 	this->ShowWindow(SW_SHOW);
+}
+
+
+void CLLKDlg::OnClickedBtnEasy()
+{
+	// TODO: Add your control notification handler code here
+}
+
+
+//void CLLKDlg::OnClickedBtnGame()
+//{
+//	// TODO: Add your control notification handler code here
+//}
+
+
+void CLLKDlg::OnClickedBtnRank()
+{
+	// TODO: Add your control notification handler code here
+}
+
+
+void CLLKDlg::OnClickedBtnSetting()
+{
+	// TODO: Add your control notification handler code here
+}
+
+
+void CLLKDlg::OnClickedBtnHelp()
+{
+	// TODO: Add your control notification handler code here
+}
+
+
+void CLLKDlg::OnClickedBtnLevel()
+{
+	// TODO: Add your control notification handler code here
 }

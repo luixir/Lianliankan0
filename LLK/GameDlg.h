@@ -57,4 +57,8 @@ public:
 	afx_msg void OnTimer(UINT_PTR nIDEvent);
 	CProgressCtrl m_GameProgress;
 	afx_msg void OnClickedBtnPause();
+	afx_msg void OnClickedBtnRearrange();
+	afx_msg void OnClickedBtnPromt();
+	afx_msg void OnClickedBtnSetting();
+	afx_msg void OnClickedBtnHelp();
 };

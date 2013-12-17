@@ -73,17 +73,17 @@ void CGameLogic::PushVertex(Vertex v)
 {
 	m_avPath[m_nVexNum] = v;
 	m_nVexNum++;
-	CString str;
+	/*CString str;
 	str.Format(_T("IN %d"), m_nVexNum);
-	AfxMessageBox(str);
+	AfxMessageBox(str);*/
 }
 
 void CGameLogic::PopVertex()
 {
 	m_nVexNum--;
-	CString str;
+	/*CString str;
 	str.Format(_T("OUT %d"), m_nVexNum);
-	AfxMessageBox(str);
+	AfxMessageBox(str);*/
 }
 
 int CGameLogic::GetVexPath(Vertex avPath[4])
@@ -248,7 +248,7 @@ bool CGameLogic::TwoCornerLink(int anMap[][4], Vertex v1, Vertex v2)
 			//PushVertex(CreateVertex(v1.row, i));
 			return true;
 		}
-		PopVertex();
+		//PopVertex();
 	}
 	PopVertex();
 
@@ -264,11 +264,11 @@ bool CGameLogic::TwoCornerLink(int anMap[][4], Vertex v1, Vertex v2)
 			//PushVertex(CreateVertex(v1.row, i));
 			return true;
 		}
-		PopVertex();
+		//PopVertex();
 	}
 	PopVertex();
 
-	for (int i=v1.row-1; i >= 0; i--)
+	for (int i=v1.row - 1; i >= 0; i--)
 	{
 		PushVertex(CreateVertex(i, v1.col));
 		if (anMap[i][v1.col] != BLANK)
@@ -280,7 +280,7 @@ bool CGameLogic::TwoCornerLink(int anMap[][4], Vertex v1, Vertex v2)
 			//PushVertex(CreateVertex(i, v1.col));
 			return true;
 		}
-		PopVertex();
+		//PopVertex();
 	}
 	PopVertex();
 
@@ -296,7 +296,7 @@ bool CGameLogic::TwoCornerLink(int anMap[][4], Vertex v1, Vertex v2)
 			//PushVertex(CreateVertex(i, v1.col));
 			return true;
 		}
-		PopVertex();
+		//PopVertex();
 	}
 	PopVertex();
 
